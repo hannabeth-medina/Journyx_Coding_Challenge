@@ -33,12 +33,3 @@ def main(input):
 
     # Format dictionary to JSON formatted string
     return json.dumps(result, indent=2)
-
-
-
-if __name__ == "__main__":
-    # print(main("@john hey, you and @emily around?"))
-    print(main("@mary @john (success) such a cool feature! Check this out: https://journyx.com/features-and-benefits/data-validation-tool"))
-    # print(main("The World Series is starting soon! (cheer) https://www.mlb.com/ and https://espn.com"))
-    # print(main("Good morning! (smile) (coffee)"))
-    # print(main(3))
