@@ -34,9 +34,9 @@ def get_links(text):
         except:
             break
         
-        title_list = re.search("<title>(.*?)</title>", str(html))
+        title = re.search("<title>(.*?)</title>", str(html))
         # Add url and current HTML title limited to 200 characters to overall list of links
-        link_list.append({"url": url, "title": title_list.group(1)[:200]})
+        link_list.append({"url": url, "title": title.group(1)[:200]})
 
     return link_list
 
