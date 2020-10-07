@@ -21,7 +21,7 @@ This code can easily be extended to include additional features
 
 * Add desired feature to this list in **main.py**
 ```python
-    features = ["emoticons", "mentions", "links", "FEATURE"]
+    features = ["emoticons", "mentions", "links", FEATURE]
 ```
 * Add method to **features.py** to determine instances of the feature based off specified requirements
 ```python
@@ -31,7 +31,7 @@ This code can easily be extended to include additional features
             REQUIREMENTS
         
         
-        return RESULTS
+        return INSTANCES
 ```
   
 ### Author
